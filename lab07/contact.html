@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 7 - contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="contact.html">Contact</a> 
+        </nav>
+        <h1>Contact</h1>
+        <h2>General Information</h2>
+        <p>Alexandra Miller-Thomas </p>
+        <p> 619 Comstock Ave <br> Syracuse, NY 13210</p>
+        <a href="mailto:amille73@syr.edu">Alexandra Miller-Thomas Email</a> <br>
+        <img src="../images/logo-sized.png" alt="Image of the LinkedIn Logo">
+        <a href="http://www.linkedin.com/in/aamillerthomas" target="_blank">My LinkedIn Profile</a> <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11664.300805646093!2d-76.14000863496729!3d43.039849223252965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30ad2ba8231%3A0x1ae00b64fed0090f!2sErnie%20Davis%20Hall%2C%20619%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706754549106!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h2>Contact Form</h2>
+
+        <form action="https://formspree.io/f/xnqeprza" method="post">
+            <label for="fullname">Name:</label><br>
+            <input type="text" id="fullname" name="fullname">
+
+            <p>Do you attend Syracuse University too?</p>
+            <input type="radio" id="yes" name="attendSU" value="person attended SU">
+            <label for="yes">Yes, I attend/attended Syracuse</label> <br>
+            <input type="radio" id="no" name="attendSU" value="person did not attend SU">
+            <label for="no">No, I do not attend SU</label> <br>
+            <input type="radio" id="will" name="attendSU" value="person plans to attend SU">
+            <label for="will">I plan to attend SU</label> <br> <br>
+
+            <label for="questionsorcomments">Questions or Comments:</label><br>
+            <textarea id="questionsorcomments" name="questionsorcomments" rows="3" cols="60"></textarea><br>
+
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
