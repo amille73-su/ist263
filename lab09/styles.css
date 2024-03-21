@@ -30,5 +30,18 @@ nav a:hover {
 
 /*lab 9 new additions*/
 .title {text-align: center;}
-.icons {width: 30px;}
-.container {display: flex;}
+.image {width: 30px;}
+.container {display: flex; flex: 3;}
+.otherskills {
+    background-color: #3d513d; 
+    color: #ffffff; 
+    border-radius: 1em; 
+    flex: 1;
+    padding: 10px;
+}
+div h2 {color: #eca0e9;}
+.fullflexbox {display:flex;}
+.icons {flex: 1;}
+
+div {margin: 10px;}
+.intro {margin-right: 250px;}
