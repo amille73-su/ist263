@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        nav {background-color: #000000;
+            padding: 10px;
+            color: #ffffff;
+            display: flex;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 15px;
+        }
+        nav div {padding: 5px}
+        .flexend {justify-content: flex-end;} 
+        /* push all columns right/end */
+
+        .spacearound {justify-content: space-around;} 
+        /* equal space around columns*/
+
+        .spacebetween {justify-content: space-between;} 
+        /*equal space, no space on the ends*/
+
+        .splitnavigation {display: flex; justify-content: space-between;}
+        .leftside, .rightside {display: flex;}
+        /* space-between separates the two children flex-boxes */
+        /* need to display flex for all the things inside bc each is one flexbox */
+    </style>
+</head>
+<body>
+    <nav class="flexend">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+    <nav class="spacearound">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+    <nav class="spacebetween">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+    <nav class="splitnavigation">
+        <div class="leftside">
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Products</div>
+            <div>Contact</div>
+        </div>
+        <div class="rightside">
+            <div>Facebook</div>
+            <div>Instagram</div>
+        </div>
+    </nav>
+</body>
+</html>
