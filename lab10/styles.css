@@ -1,0 +1,57 @@
+body {background-color:#a6beb0;}
+p {color:#7d5188;}
+a {color:#b84186;}
+a:hover {color:#eeeb89;} 
+h1, h2 {color:#653771;}
+nav {
+    background-color:#6f936f;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {color:#7d5188;}
+nav a:hover {
+    background-color:#7a9b88;
+    color:#eeeb89;
+}
+/* LAB 8 Changes */
+/* index page */
+.quote {float: right;}
+
+
+/* contact page */
+.top {display: flex; background-color: #faf8b5; border-radius: 1em; padding: 10px}
+.address {flex: 1; padding: 10px;}
+.links {flex: 1; padding: 10px; margin: 30px;}
+
+.bottom {display: flex; background-color: #faf8b5; border-radius: 1em; padding: 10px}
+.map {flex: 1; order: 2; padding: 10px;}
+.form {flex: 1; order: 1; padding: 10px; background-color: #f8f7cd; border-radius: 1em;}
+
+
+/*lab 9 new additions*/
+.title {text-align: center;}
+.image {width: 30px;}
+.container {display: flex; flex: 3;}
+.otherskills {
+    background-color: #3d513d; 
+    color: #ffffff; 
+    border-radius: 1em; 
+    flex: 1;
+    padding: 10px;
+}
+div h2 {color: #eca0e9;}
+.fullflexbox {display:flex;}
+.icons {flex: 1;}
+
+div {margin: 10px;}
+.intro {margin-right: 250px;}
+
+
+
+/*Lab 10 new changes*/
+.banner {max-width: 100%;}
+.bottom {flex-wrap: wrap;}
+@media only screen and (max-width: 800px) {
+    nav a {width: 100%; display: block; margin: 5px;}
+    span {display: none;}
+}
