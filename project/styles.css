@@ -23,7 +23,6 @@ a:hover {color: #e7eff6;}
 .p2top {display:flex;}
 .p2image1 {
     flex: 1;
-    width: 100%;
 }
 .p2text {
     flex: 3;
