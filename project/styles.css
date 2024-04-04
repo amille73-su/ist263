@@ -1,7 +1,8 @@
+/* General (all pages) CSS */
 body {background-color: #adcbe3;}
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: #005b96;
     border-radius: 1em;
 }
@@ -12,4 +13,33 @@ nav a {
 }
 a:hover {color: #e7eff6;}
 
+/* Page 1 (home) */
+
+
+/* Page 2 (why make animals glow)*/
+.glowingfish {
+    width: 100%;
+}
+.p2top {display:flex;}
+.p2image1 {
+    flex: 1;
+    width: 100%;
+}
+.p2text {
+    flex: 3;
+    padding: 20px;
+}
+.p2bottom {display: flex;}
+.list {
+    flex: 1;
+}
+.animalvideo {
+    flex: 2;
+    width: 75%;
+}
+
+/* Page 3 (how to glow)*/
+
+
+/* Page 3 (trials and errors)*/
 
