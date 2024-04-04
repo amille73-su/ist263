@@ -1,5 +1,8 @@
 /* General (all pages) CSS */
-body {background-color: #adcbe3;}
+body {
+    background-color: #adcbe3;
+    color: #03396c;
+}
 .nav {
     display: flex;
     justify-content: flex-start;
@@ -12,31 +15,51 @@ nav a {
     color: #adcbe3;
 }
 a:hover {color: #e7eff6;}
+h2 {color: #012648;}
+
 
 /* Page 1 (home) */
-
+.genes {
+    width: 100%;
+}
 
 /* Page 2 (why make animals glow)*/
 .glowingfish {
     width: 100%;
 }
-.p2top {display:flex;}
 .p2image1 {
     flex: 1;
+    margin: 35px auto;
 }
 .p2text {
     flex: 3;
     padding: 20px;
 }
-.p2bottom {display: flex;}
+.p2bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
 .list {
     flex: 1;
+    padding: 20px;
 }
 .animalvideo {
     flex: 2;
-    width: 75%;
+    padding: 20px;
 }
+@media only screen and (max-width: 800px) {
+    .p2top {flex-wrap: wrap;}
+    .psbottom {flex-wrap: wrap;}
+    .p2video {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media only screen and (min-width: 801px) {
+    .p2top {display: flex;} 
+    .p2bottom {display: flex;}
 
+}
 /* Page 3 (how to glow)*/
 
 
