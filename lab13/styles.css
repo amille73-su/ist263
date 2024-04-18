@@ -8,10 +8,10 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
-nav a {color:#9d00c4;}
+nav a {color:#3c004b;}
 nav a:hover {
     background-color:#7a9b88;
-    color:#fffb7b;
+    color:#fcfaaf;
 }
 /* LAB 8 Changes */
 /* index page */
@@ -74,4 +74,3 @@ body {font-size: 25px;}
     left: 10px;
 }
 
-h2 {color: #ef42e3;}
