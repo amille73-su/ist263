@@ -45,7 +45,7 @@ h2 {color: #012648;}
     .row {display: flex; justify-content: space-between;}
 }
 @media only screen and (min-width: 801px) {
-    .nav {display: block;}
+    nav {display: block;}
 }
 
 
@@ -61,16 +61,29 @@ h2 {color: #012648;}
     float: right;
     margin: 10px;
 }
+.dnadiagram {
+    width: 60%;
+}
+
 @media only screen and (max-width: 800px) {
     .jellyfish1 {
         width:50%;
     }
-    .p1top {
+    .p1top, .p1bottom {
         flex-wrap: flex;
+    }
+    .dnadiagram {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media only screen and (min-width: 801px) {
-    
+    .dnadiagram {
+        margin: 10px;
+        float: right;
+    }
 }
 
 
@@ -81,21 +94,19 @@ h2 {color: #012648;}
 .glowingfish {
     width: 100%;
 }
+.jellyfish5 {
+    width: 100%;
+}
 .p2image1 {
-    flex: 1;
-    margin: 35px auto;
-    
+    margin: 15px auto;
 }
 .p2text {
-    flex: 3;
-    padding: 20px;
+    padding: 10px;
 }
 .list {
-    flex: 1;
     padding: 20px;
 }
 .animalvideo {
-    flex: 2;
     padding: 20px;
 }
 @media only screen and (max-width: 800px) {
@@ -106,13 +117,27 @@ h2 {color: #012648;}
         max-height: 100%;
     }
     .jellyfish5 {
-        width: 50%;
+        width: 25%;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
     }
 }
 @media only screen and (min-width: 801px) {
     .p2top {display: flex;} 
     .p2bottom {display: flex;}
-
+    .p2image1 {
+        flex: 1;
+    }
+    .p2text {
+        flex: 4;
+    }
+    .list {
+        flex: 1;
+    }
+    .animalvideo {
+        flex: 2;
+    }
 }
 
 
