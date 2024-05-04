@@ -26,6 +26,7 @@ h2 {color: #012648;}
 }
 .skip:focus {
     left: 10px;
+    top: 50px;
 }
 #hamicon {display: none;}
 #hamicon {width: 40px;}
@@ -47,8 +48,36 @@ h2 {color: #012648;}
 @media only screen and (min-width: 801px) {
     nav {display: block;}
 }
-
-
+/* Animation property */
+.quotes {
+    animation: wiggle 2s linear ;
+  }
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  .clearfloat {clear: both;}
+  
 
 
 
@@ -62,7 +91,7 @@ h2 {color: #012648;}
     margin: 10px;
 }
 .dnadiagram {
-    width: 60%;
+    width: 45%;
 }
 
 @media only screen and (max-width: 800px) {

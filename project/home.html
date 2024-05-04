@@ -22,6 +22,15 @@
         function hideNav () {
             document.getElementById("navlinks").style.display = "none";
         }
+        function writeRandomQuote () {
+            var quotes = [
+                "The sea is an underwater museum still awaiting its visitors - Phillip Diole",
+                "Clearly, animals know more than we think, and think a great deal more than we know - Irene M. Pepperberg",
+                "Until one has loved an animal, a part of one's soul remaind unawakened - Anatole France"
+            ];
+            var rand = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quoteDisplay').innerHTML = quotes[rand];
+        }
     </script>
 </head>
 <body>
@@ -41,6 +50,9 @@
     <img src="images/genes.jpg" alt="Blue/Teal Glowing Genes" class="genes">
     </figure>
 
+    <p class="quotes" onclick="writeRandomQuote();">Click for a quote!</p>
+    <p id="quoteDisplay"></p>
+
     <h1>Home</h1>
 
     <section> 
@@ -57,6 +69,7 @@
     
     <p>Through this, she was inspired to learn more about how the genetic transfers of certain aquatic species genes can be used in medicine to help cure diseases. This research was very informative in both a biological and medical sense on the different techniques that scientists use to create remedies for illnesses and diseases. All of the following information explaining the process of bioluminescent gene transfers was inspired by the article she wrote in 2019 for her Honors Biology project. </p>
     <br><br>
+    <div class="clearfloat"></div>
     </div>
     </section>
 
