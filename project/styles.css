@@ -34,11 +34,11 @@ h2 {color: #012648;}
 @media only screen and (max-width: 800px) {
     #hamicon {
         display: block;
-        width: 5%;
+        width: 10%;
     }
     #close {
         display: block;
-        width: 5%;
+        width: 10%;
     }
     a {border: 1px solid black;
         display: block;} /*change links to block, that makes them take up full width*/
@@ -51,6 +51,7 @@ h2 {color: #012648;}
 /* Animation property */
 .quotes {
     animation: wiggle 2s linear ;
+    cursor: pointer;
   }
   /* Keyframes */
   @keyframes wiggle {
@@ -175,13 +176,64 @@ h2 {color: #012648;}
 
 
 /* Page 3 (how to glow)*/
-
+.p3image1 {
+    margin-right: 15px;
+    width: 100%;
+}
+.p3text1 {
+    margin: auto;
+}
+.p3image2 {
+    margin-left: 15px;
+    width: 100%;
+}
+.p3text2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.p3video{
+    float: left;
+    margin 10px;
+    width: 100%;
+}
+.p3image3 {
+    left-margin: auto;
+    right-margin: auto;
+    width: 100%;
+}
+.p3bottomtext1, .p3bottomtext2 {
+    left-margin: auto;
+    right-margin: auto;
+}
+.micechart, {
+    width: 100%
+}
 @media only screen and (max-width: 800px) {
-    
-
+    .p3top1, .p3top2 {
+        flex-wrap: flex;
+    }
+    .p3image1, .p3image2 {
+        width: 50%;
+    }
+    .micechart {
+        margin-top: 25px;
+        width: 100%
+    }
+    .jellyfish3, .jellyfish4 {
+        width: 100%
+    }
 }
 @media only screen and (min-width: 801px) {
-    
+    .p3top1 {
+        display: flex;
+    }
+    .p3top2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .p3bottom {
+        display: flex;
+    }
 
 }
 

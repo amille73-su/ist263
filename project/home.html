@@ -26,7 +26,10 @@
             var quotes = [
                 "The sea is an underwater museum still awaiting its visitors - Phillip Diole",
                 "Clearly, animals know more than we think, and think a great deal more than we know - Irene M. Pepperberg",
-                "Until one has loved an animal, a part of one's soul remaind unawakened - Anatole France"
+                "Until one has loved an animal, a part of one's soul remaind unawakened - Anatole France", 
+                "Nature itself is the best physician - Hippocrates",
+                "Laughter is good medicine for the soul. Our world is desperately in need of more medicine - Jim Stovall",
+                "Medicine in the future will give everyone the ability to become their own best healer - Deepak Chopra"
             ];
             var rand = Math.floor(Math.random() * quotes.length);
             document.getElementById('quoteDisplay').innerHTML = quotes[rand];
@@ -50,8 +53,7 @@
     <img src="images/genes.jpg" alt="Blue/Teal Glowing Genes" class="genes">
     </figure>
 
-    <p class="quotes" onclick="writeRandomQuote();">Click for a quote!</p>
-    <p id="quoteDisplay"></p>
+    <p class="quotes" id="quoteDisplay" onclick="writeRandomQuote();">Click for a quote!</p>
 
     <h1>Home</h1>
 
