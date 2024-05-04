@@ -12,9 +12,9 @@ body {
 nav a {
     padding: 5px;
     margin: 5px;
-    color: #adcbe3;
+    color: #e6f4ff;
 }
-a:hover {color: #e7eff6;}
+a:hover {color: #ffffff;}
 h2 {color: #012648;}
 
 
@@ -22,7 +22,18 @@ h2 {color: #012648;}
 .genes {
     width: 100%;
 }
-
+. {
+    
+}
+@media only screen and (max-width: 800px) {
+    .jellyfish1 {
+        width:50%
+    }
+}
+@media only screen and (min-width: 801px) {
+    .p1top {display: flex;}
+    ,p1bottom {display: flex;}
+}
 /* Page 2 (why make animals glow)*/
 .glowingfish {
     width: 100%;
@@ -30,6 +41,7 @@ h2 {color: #012648;}
 .p2image1 {
     flex: 1;
     margin: 35px auto;
+    
 }
 .p2text {
     flex: 3;
@@ -50,6 +62,9 @@ h2 {color: #012648;}
         max-width: 100%;
         max-height: 100%;
     }
+    .jellyfish5 {
+        width: 50%;
+    }
 }
 @media only screen and (min-width: 801px) {
     .p2top {display: flex;} 
@@ -58,6 +73,22 @@ h2 {color: #012648;}
 }
 /* Page 3 (how to glow)*/
 
+@media only screen and (max-width: 800px) {
+    
+
+}
+@media only screen and (min-width: 801px) {
+    
+
+}
 
 /* Page 3 (trials and errors)*/
 
+@media only screen and (max-width: 800px) {
+    
+
+}
+@media only screen and (min-width: 801px) {
+    
+
+}
