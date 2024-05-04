@@ -16,24 +16,67 @@ nav a {
 }
 a:hover {color: #ffffff;}
 h2 {color: #012648;}
+.skip {
+    padding: 8px;
+    text-decoration: none;
+    border: 2px solid black;
+    position: absolute; /* tells that it takes the flow out of the document*/
+    top: 10px;
+    left: -999px; /* push off left side of browser */
+}
+.skip:focus {
+    left: 10px;
+}
+#hamicon {display: none;}
+#hamicon {width: 40px;}
+#close {display: none;}
+@media only screen and (max-width: 800px) {
+    #hamicon {
+        display: block;
+        width: 5%;
+    }
+    #close {
+        display: block;
+        width: 5%;
+    }
+    a {border: 1px solid black;
+        display: block;} /*change links to block, that makes them take up full width*/
+    .nav {display: none;}
+    .row {display: flex; justify-content: space-between;}
+}
+@media only screen and (min-width: 801px) {
+    .nav {display: block;}
+}
+
+
+
 
 
 /* Page 1 (home) */
 .genes {
     width: 100%;
 }
-. {
-    
+.jellyfish1 {
+    width: 35%;
+    float: right;
+    margin: 10px;
 }
 @media only screen and (max-width: 800px) {
     .jellyfish1 {
-        width:50%
+        width:50%;
+    }
+    .p1top {
+        flex-wrap: flex;
     }
 }
 @media only screen and (min-width: 801px) {
-    .p1top {display: flex;}
-    ,p1bottom {display: flex;}
+    
 }
+
+
+
+
+
 /* Page 2 (why make animals glow)*/
 .glowingfish {
     width: 100%;
@@ -71,6 +114,12 @@ h2 {color: #012648;}
     .p2bottom {display: flex;}
 
 }
+
+
+
+
+
+
 /* Page 3 (how to glow)*/
 
 @media only screen and (max-width: 800px) {
@@ -81,6 +130,10 @@ h2 {color: #012648;}
     
 
 }
+
+
+
+
 
 /* Page 3 (trials and errors)*/
 

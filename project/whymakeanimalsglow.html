@@ -15,9 +15,23 @@
             font-style: normal;
         }
     </style>
+    <script>
+        function showNav () {
+            document.getElementById("navlinks").style.display = "block";
+        }
+        function hideNav () {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    </script>
 </head>
 <body>
-    <nav class="nav">
+    <div class="row">
+        <img id="hamicon" onclick="showNav();" src="images/hamburger.png" alt="hamburger icon" >
+        <img id="close" onclick="hideNav();" src="images/close.png" alt="close icon">
+        
+    </div>
+    <nav class="nav" id="navlinks">
+        <a href="#skip" class="skip" tabindex="1">Skip to Content</a>
         <a href="home.html">Home</a>
         <a href="whymakeanimalsglow.html">Why Make Animals Glow?</a>
         <a href="howtoglow.html">How to Glow</a>
