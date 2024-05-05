@@ -40,7 +40,7 @@ h2 {color: #012648;}
         display: block;
         width: 10%;
     }
-    a {border: 1px solid black;
+    nav a {border: 1px solid black;
         display: block;} /*change links to block, that makes them take up full width*/
     .nav {display: none;}
     .row {display: flex; justify-content: space-between;}
@@ -193,19 +193,19 @@ h2 {color: #012648;}
 }
 .p3video{
     float: left;
-    margin 10px;
+    margin: 10px;
     width: 100%;
 }
 .p3image3 {
-    left-margin: auto;
-    right-margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 .p3bottomtext1, .p3bottomtext2 {
-    left-margin: auto;
-    right-margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.micechart, {
+.micechart {
     width: 100%
 }
 @media only screen and (max-width: 800px) {
@@ -242,10 +242,54 @@ h2 {color: #012648;}
 
 
 /* Page 4 (trials and errors)*/
-
+.transgenicmouse {
+    width: 50%;
+    margin-right: 25px;
+    float: left;
+}
 @media only screen and (max-width: 800px) {
-    
+    .jellyfish2{
+        display: none;
+    }
+    .jellyfish6{
+        width: 50%;
+        margin-left: 135px;
+    }
+    .p4image3 {
+        flex-wrap: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .transgenicmouse {
+        float:none;
+        flex-wrap: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media only screen and (min-width: 801px) {
-    
+    .p4top {
+        display: flex;
+    }
+    .p4text {
+        flex: 2;
+    }
+    .p4images {
+        flex: 1;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .jellyfish2{
+        width: 75%;
+        margin-bottom: 50px;
+    }
+    .jellyfish6{
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .jellyfish2, .jellyfish6, .transgenicmouse {
+        width: 40%;
+    }
 }
