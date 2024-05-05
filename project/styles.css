@@ -234,7 +234,11 @@ h2 {color: #012648;}
     .p3bottom {
         display: flex;
     }
-
+    .micechart {
+        width: 45%;
+        margin-left: 250px;
+        margin-right: auto;
+    }
 }
 
 
@@ -243,7 +247,6 @@ h2 {color: #012648;}
 
 /* Page 4 (trials and errors)*/
 .transgenicmouse {
-    width: 50%;
     margin-right: 25px;
     float: left;
 }
@@ -293,7 +296,10 @@ h2 {color: #012648;}
     }
 }
 @media only screen and (min-width: 1201px) {
-    .jellyfish2, .jellyfish6, .transgenicmouse {
+    .jellyfish2, .jellyfish6 {
         width: 40%;
+    }
+    .transgenicmouse {
+        width: 25%;
     }
 }
