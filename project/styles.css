@@ -247,6 +247,10 @@ h2 {color: #012648;}
     margin-right: 25px;
     float: left;
 }
+.p4text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 @media only screen and (max-width: 800px) {
     .jellyfish2{
         display: none;
